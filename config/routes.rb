@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
+  get '/index' => 'home#index'
   get '/oursolutions' => 'home#oursolutions'
   get '/references' => 'home#references'
   get '/contact' => 'home#contact'
