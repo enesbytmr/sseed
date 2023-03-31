@@ -40,6 +40,12 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg2{
+  height: 100vh;
+  background-image: url('https://raw.githubusercontent.com/enesbytmr/sseed/master/app/assets/images/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .col{
 height: 100vh;
 }
@@ -74,4 +80,8 @@ form input{
   font-size: 1rem;
   margin-bottom: 1rem;
   
+}
+.denemdiv{
+  margin-top: 10rem;
+  width: 20vw;
 }
